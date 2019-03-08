@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-GVERSION="1.8.3"
+GVERSION="1.12"
 GFILE="go$GVERSION.linux-amd64.tar.gz"
 
 GOPATH="$HOME/projects/go"
