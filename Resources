@@ -1,0 +1,26 @@
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+export PATH="$PATH:/mnt/c/Program\ Files/Docker/Docker/resources/bin"
+alias docker=docker.exe
+alias docker-compose=docker-compose.exe
+
+
+
+Installation problem Local Hyperledger Network (Windows 10 with Bash shell) 
+
+
+
+
+curl -s -L https://raw.githubusercontent.com/ravi0511/BlueMix/master/wsl-go-install.sh | sudo bash
+
+curl -s -L <GIST_RAW_URL> | sudo bash
+
+sudo apt-get remove --auto-remove golang-go
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+PATH=/usr/bin:$PATH
+
+net stop LxssManager
+net start LxssManager
+
+sudo find / -name '*docker*'
